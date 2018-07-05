@@ -1,0 +1,28 @@
+.img-modal {
+
+  .modal-body {
+    label {
+      position: relative;
+    }
+  }
+
+  #upload {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  #crop-image {
+    display: block;
+    margin: 20px;
+    margin-bottom: 30px;
+    max-height: 500px;
+    & > img {
+      max-width: 100%;
+    }
+  }
+
+}

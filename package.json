@@ -1,0 +1,41 @@
+{
+  "name": "bs-modal",
+  "author": "Alireza Zerafati <a.zerafati@gmail.com> (https://azerafati.com/)",
+  "description": "Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "distribute": "gulp distribute"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "connect-history-api-fallback": "^1.5.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-angular-templatecache": "^2.2.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.5",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-iife": "^0.3.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5",
+    "gulp-util": "^3.0.8",
+    "uglify-es": "^3.3.9"
+  },
+  "dependencies": {
+    "angular": "^1.7.2",
+    "bootstrap": "^4.1.1",
+    "jquery": "^2.2.4"
+  },
+  "repository": "azerafati/bs-modal",
+  "keywords": [
+    "angularjs",
+    "bootstrap",
+    "modal"
+  ],
+  "license": "MIT"
+}
