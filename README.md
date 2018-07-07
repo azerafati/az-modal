@@ -4,9 +4,9 @@
 
 
 
-####Modal service for AngularJS using Bootstrap
+#### Modal service for AngularJS using Bootstrap
 
-This is a very simple and but handy service written to let you call a bootstrap modal with a template and a controller and pass some arguments to the controller. 
+This is a very simple and minimal but handy service written to let you call a bootstrap modal with a template and a controller and pass some arguments to the controller. 
 
 So basically you can write:
 
