@@ -1,10 +1,26 @@
-# bs Modal
+# az Modal
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] ![Coveralls github](https://img.shields.io/coveralls/github/azerafati/az-modal.svg) ![Github file size](https://img.shields.io/github/size/azerafati/az-modal/dist/az-modal.min.js.svg)
 
 
 
-Modal service for AngularJS using Bootstrap
+####Modal service for AngularJS using Bootstrap
+
+This is a very simple and but handy service written to let you call a bootstrap modal with a template and a controller and pass some arguments to the controller. 
+
+So basically you can write:
+
+```
+azModal.show({
+    templateUrl: '/app/product/product-detail.html',
+    controller : 'productDetailCtrl',
+    locals: {product:product}
+
+});
+
+```
+And a Bootstrap modal will be displayed with `product` injected into decencies of `productDetailCtrl` controller. 
+
 
 Demo: 
 https://azerafati.github.io/az-modal/

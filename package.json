@@ -2,7 +2,7 @@
   "name": "az-modal",
   "author": "Alireza Zerafati <a.zerafati@gmail.com> (https://azerafati.com/)",
   "description": "Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "distribute": "gulp distribute"
